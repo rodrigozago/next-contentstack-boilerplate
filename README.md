@@ -1,83 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  Next Contentstack Boilerplate
-  <br>
-</h1>
+## Getting Started
 
-<h4 align="center">A boilerplate to create web applications on top of <a href="http://nextjs.com" target="_blank">next.js</a> powered by <a href="http://contentstack.com" target="_blank">Contentstack</a> headless CMS.</h4>
-
-<p align="center">
-    <!-- Badges -->
-    <!-- <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-    </a> -->
- 
-</p>
-
-<p align="center">
-<!-- COOL LINKS -->
-  <!-- <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a> -->
-</p>
-
-<!-- COOL SCREESNSHOT / In the future -->
-<!-- ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif) -->
-
-## Key Libraries
-
-* Contentstack SDK
-* Contentstack basic configuration file
-* Example Next.js Components 
-## Features
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+First, run the development server:
 
 ```bash
-# Clone this repository
-$ git clone
-
-# Go into the repository
-$ cd 
-
-# Install dependencies
-$ npm install
-
-# Run the dev app
-$ npm run dev
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Credits
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This boilerplate is based on the <a href="https://github.com/contentstack/contentstack-academy-playground">Contentstack Playground</a>
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<!-- This software uses the following open source packages:
+## Learn More
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/) -->
+To learn more about Next.js, take a look at the following resources:
 
-## Support
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-If you like this project and think it has helped in any way, consider buying me a coffee!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<!-- > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp; -->
-> GitHub [@rodrigozago](https://github.com/rodrigozago)
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
