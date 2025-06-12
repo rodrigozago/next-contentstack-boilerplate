@@ -2,9 +2,9 @@ This is a Boilerplate powered by [Next.js](https://nextjs.org) to create web app
 
 ## Tech Stack
 
-* Husky - Runs precommit to lint before commit
-* Lint-Staged - run linters in staged files only
-
+- Husky - Runs precommit to lint before commit
+- Lint-Staged - Run linters in staged files only
+- Commitlint - Lint commits
 
 ## Getting Started
 
