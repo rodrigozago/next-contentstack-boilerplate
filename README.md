@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Boilerplate powered by [Next.js](https://nextjs.org) to create web app in top of Contentstack Headless platform this project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and based on the official contentastack academy [playground](https://github.com/contentstack/contentstack-academy-playground).
+
+## Tech Stack
+
+* Husky - Runs precommit to lint before commit
+* Lint-Staged - run linters in staged files only
+
 
 ## Getting Started
 
