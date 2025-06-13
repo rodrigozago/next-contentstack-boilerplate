@@ -5,8 +5,8 @@ import './globals.css';
 
 const raleway = Raleway({
   subsets: ['latin'],
-  display: 'swap'
-})
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Next JS ContentStack Boilerplate',
@@ -20,11 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body
-        className={raleway.className}
-      >
-        {children}
-      </body>
+      <body className={raleway.className}>{children}</body>
     </html>
   );
 }

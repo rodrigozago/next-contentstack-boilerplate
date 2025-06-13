@@ -44,4 +44,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## More information about Contentstack with Next.js
+
 - [Contentstack Docs](https://www.contentstack.com/docs/developers/sample-apps/build-a-starter-website-using-next-js-and-contentstack)
